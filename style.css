@@ -1,0 +1,41 @@
+
+
+/* Block du site */
+
+#conteneur-page{
+    background: #666666;
+    margin: auto;
+    border: 4px solid #FFF;
+    padding: 4px;
+    border-radius: 3px;
+	min-width: 500px;
+	max-width:910px;
+}
+
+/* Header*/
+
+header{
+    width: 900px;
+}
+
+#titre_principal, header a{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#titre_principal{
+	width: 750px;
+	text-align: center;
+	margin: 0px; 
+	padding: 0px;
+}
+
+h1{
+  font-size: 2.1em;
+  text-shadow: 4px 0px 4px #ccc;
+}
+
+p{
+    font-family: BallparkWeiner;
+    font-size: 1.2em;
+}
