@@ -1,41 +1,39 @@
 
 
 /* Block du site */
+body{
+    background: lightgreen;
+}
 
-#conteneur-page{
-    background: #666666;
+#bloc-page{
+    background: white;
     margin: auto;
-    border: 4px solid #FFF;
-    padding: 4px;
+    width: 800px;
+    border: 4px solid red;
+    padding: 3px;
     border-radius: 3px;
-	min-width: 500px;
-	max-width:910px;
 }
 
 /* Header*/
 
 header{
-    width: 900px;
+    width: 796px;
+    text-align: center;
 }
 
-#titre_principal, header a{
-	display: inline-block;
-	vertical-align: top;
-}
-
-#titre_principal{
-	width: 750px;
-	text-align: center;
-	margin: 0px; 
-	padding: 0px;
-}
 
 h1{
   font-size: 2.1em;
   text-shadow: 4px 0px 4px #ccc;
+  text-align: center;
 }
 
 p{
     font-family: BallparkWeiner;
     font-size: 1.2em;
+    text-align: center;
+}
+
+section{
+    text-align: center;
 }
